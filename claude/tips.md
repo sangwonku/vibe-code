@@ -1,4 +1,4 @@
-## from https://youtu.be/a1a9wV88MSM?si=ijz-vGI3sSjwgz8c, with noteboolm
+## from https://youtu.be/a1a9wV88MSM?si=ijz-vGI3sSjwgz8c, with notebooklm
 
 ## CLI 기본기
 - 클로드 코드 설치: npm install -g @anthropic-ai/claude-code 명령어를 통해 설치할 수 있습니다.
@@ -52,7 +52,7 @@
 - Diff 기능 연동: Visual Studio Code나 IntelliJ 같은 IDE의 Diff 뷰와 연동하여 변경 사항을 확인할 수 있습니다.
 - 파일 참조: Mac에서는 Command+Option+K, Windows에서는 Alt+Control+K를 눌러 파일을 자동으로 참조할 수 있습니다.
 - 외부 IDE 연동: /id 명령어를 입력하여 목록에서 원하는 외부 IDE를 선택하고 클로드 코드를 연동할 수 있습니다.
-5. 엔트로픽이 직접 알려주는 꿀팁
+## 엔트로픽이 직접 알려주는 꿀팁
 - Git CLI 설치: Git CLI를 설치해두면 클로드 코드가 Git 커밋 분석, 커밋 메시지 작성, 롤백, 풀 리퀘스트 생성 등 복잡한 Git 관련 워크플로우를 쉽게 다룰 수 있습니다.
 - MCP 사용: Superbase나 Playwright 같은 다양한 MCP(Multi-Capability Platform)를 클로드 코드와 함께 사용하면 클로드 코드가 직접 작업할 수 없는 부분들을 연동하여 LLM의 기능을 뛰어넘는 유용한 작업을 수행할 수 있습니다.
 - 커스텀 슬래시 커맨드 사용: 자주 사용하는 Git 관련 커맨드나 테스트 관련 커맨드를 커스텀 슬래시 커맨드로 미리 만들어두고 반복적으로 사용할 수 있습니다. argument 값을 사용하여 프롬프트를 인수로 받을 수도 있습니다.
